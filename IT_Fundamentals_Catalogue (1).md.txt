@@ -1,0 +1,151 @@
+
+# IT Fundamentals & Cybersecurity Hub by Walter Ferguson
+
+## Homepage Overview
+- Introduction (Brief bio & purpose)
+- Navigation menu to all major topics
+- LinkedIn badge + GitHub portfolio link
+- Blog updates section
+
+## Catalogue Outline
+
+### 1. Basic IT Terminology
+- Definitions of key IT terms (CPU, RAM, OS, DNS, etc.)
+- Glossary-style index
+- Simple icons or infographics for each
+
+### 2. Networking & Connectivity Basics
+#### A. Illustrated Workflow Diagram
+- Home user → Router → Modem → ISP → Internet → Website server → Return data
+- Visual arrows showing inflow and outflow
+
+#### B. Concepts Explained
+- What is a modem?
+- What is a router?
+- What is a switch?
+- NAT and DHCP
+- IP Address vs MAC Address
+
+### 3. How IP Addressing Works
+- Role of DNS
+- Public vs Private IP
+- Dynamic vs Static IP
+- Domain resolution explained (How google.com maps to an IP)
+
+### 4. Security Protocols Comparison
+| Protocol | Purpose | Encryption | Strengths | Weaknesses | Use Case |
+|---------|---------|------------|-----------|------------|----------|
+| WEP | Basic wireless security | Weak | Easy to set up | Outdated, vulnerable | Avoid |
+| WPA | Improved over WEP | TKIP | Stronger than WEP | Still not ideal | Deprecated |
+| WPA2-AES | Modern encryption | AES | Strong, current standard | Not always default on old devices | Recommended |
+| WPA3 | Latest standard | AES + better handshake | Strongest | Device compatibility | Future-proof |
+
+### 5. Internet Services & Protocols Outline (Diagram + Explanation)
+- TCP/IP Stack (5 Layers):
+  - Physical – cables, NIC
+  - Data Link – Ethernet, MAC
+  - Network – IP, routers
+  - Transport – TCP/UDP
+  - Application – HTTP, DNS, FTP
+- OSI Model Mnemonic: "Please Do Not Throw Sausage Pizza Away"
+  - Physical, Data Link, Network, Transport, Session, Presentation, Application
+  - Add icons + example services/devices per layer
+
+### 6. IP Addressing & Subnetting
+- IPv4 vs IPv6
+- Subnet masks (e.g., 255.255.255.0)
+- CIDR notation (/24, /16)
+- Binary visualization
+
+### 7. Basic Networking Commands
+- ping, tracert, ipconfig, netstat, nslookup
+- Linux equivalents: ifconfig, netstat, dig
+- Sample outputs explained
+
+### 8. Command Line & Scripting
+#### A. Windows CMD & PowerShell
+- Navigation
+- Task automation
+- Examples: Disk cleanup, service control
+
+#### B. Linux Bash
+- ls, cd, sudo, chmod, chown, top
+- Simple shell scripts (backup, user add)
+
+### 9. VPNs & Common Fixes
+- What is a VPN?
+- Benefits (privacy, remote access)
+- Protocols: PPTP, L2TP, OpenVPN
+- Troubleshooting home connections, DNS flush, reboot stack, reset NIC
+
+### 10. CompTIA A+ Objective Breakdown
+#### Hardware Domain:
+- Videos on PC teardown, RAM install, BIOS access
+#### Software Domain:
+- Windows install demo, user management, basic registry edits
+#### Labs Section:
+- OS install VM guide
+- USB boot setup
+- File system cleanup (lab with screenshots)
+
+### 11. Cloud Platform Guides
+#### AWS
+- Account setup
+- CLI setup
+- IAM roles
+- Launch/delete EC2 instances (with screenshots)
+
+#### Google Cloud
+- Project setup
+- VM deployment
+- IAM management
+
+#### Microsoft Azure
+- Portal intro
+- Create resource groups
+- Role-based access control (RBAC)
+- VM management with CLI
+
+### 12. GitHub Integration & Labs
+- How to:
+  - Create a GitHub repo
+  - Push your labs
+  - Write a README
+- Markdown tips
+- Embed terminal sessions and screenshots
+- Comment section for peer feedback
+
+### 13. TCP/IP & OSI Layer Detailed Blog
+- Five TCP/IP Layers with example functions
+- OSI breakdown (Devices, Services per Layer)
+- Comparison of both stacks
+- Easy-memorization graphics
+
+### 14. Networking+ Protocols & Connectivity
+- TCP, UDP, FTP, SSH, Telnet, HTTP/HTTPS, SNMP, ICMP
+- Use-case diagrams (which protocol when?)
+- Quiz section
+
+### 15. Security+ Focus
+#### A. Domains Overview:
+- Threats, Attacks, Vulnerabilities
+- Architecture and Design
+- Implementation
+- Operations and Incident Response
+- Governance, Risk, and Compliance
+
+#### B. Security Triad
+- Confidentiality
+- Integrity
+- Availability
+- Examples + Application in real-world IT
+
+### 16. Interactive Section
+- Practice Quizzes
+- Lab Simulators (Links to TryHackMe, AWS Free Tier, etc.)
+- Q&A Section (Blog-style comments or LinkedIn integration)
+
+## Deployment Suggestions:
+- Deploy via GitHub Pages, Netlify, or Vercel
+- Post articles weekly to LinkedIn with links to sections
+- Invite feedback and collaboration
