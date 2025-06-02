@@ -3,9 +3,9 @@ layout: default
 title: IT Fundamentals Labs
 ---
 
-# 💼 Welcome to Walter Ferguson's IT Fundamentals Portfolio
+# 💼 Welcome to Walter's IT Fundamentals Portfolio
 
-Explore real-world scenarios, solutions, and hands-on labs below:
+Here we'll explore real-world scenarios, solutions, and hands-on labs below:
 
 ### 🔧 Lab Topics:
 
