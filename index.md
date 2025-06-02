@@ -1,6 +1,6 @@
 ---
 layout: default
-title: IT Fundamentals Kowledge Hub
+title: IT Fundamentals Knowledge Hub
 ---
 
 <p align="center">
