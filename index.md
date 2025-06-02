@@ -1,13 +1,13 @@
 ---
 layout: default
-title: IT Fundamentals Hub
+title: IT Fundamentals Kowledge Hub
 ---
 
 <p align="center">
   <img src="logo.png" alt="Walter Ferguson Logo" width="200"/>
 </p>
 
-# IT Fundamentals & Cybersecurity Kowledge Hub by Walter Ferguson
+# IT Fundamentals & Cybersecurity Knowledge Hub by Walter Ferguson
 
 Welcome to your all-in-one IT knowledge portal. Explore key areas like:
 
