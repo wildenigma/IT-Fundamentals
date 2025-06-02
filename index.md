@@ -6,7 +6,10 @@
 layout: default
 title: IT Fundamentals Hub
 ---
-![Walter Ferguson Logo](logo1.png) 
+<p align="center">
+  ![Walter Ferguson Logo](logo.png)
+</p>
+
 
 # IT Fundamentals & Cybersecurity Hub by Walter Ferguson
 
