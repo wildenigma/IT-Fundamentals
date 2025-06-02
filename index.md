@@ -1,13 +1,11 @@
-<p align="center">
-  <img src="logo.png" alt="Walter Ferguson Logo" width="200"/>
-</p>
 
 ---
 layout: default
 title: IT Fundamentals Hub
 ---
+
 <p align="center">
-  ![Walter Ferguson Logo](logo.png)
+  <img src="logo1.png" alt="Walter Ferguson Logo" width="200"/>
 </p>
 
 
