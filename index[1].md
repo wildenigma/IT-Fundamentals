@@ -1,4 +1,4 @@
-
+![Walter Ferguson Logo](logo.png)
 ---
 layout: default
 title: IT Fundamentals Hub
