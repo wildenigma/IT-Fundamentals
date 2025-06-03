@@ -49,5 +49,51 @@ This lab section covers practical, scenario-based issues and step-by-step resolu
 - ✅ Run antivirus scan  
 - ✅ Check disk health: `chkdsk`  
 - 🛠️ **Fix**: Disable bloatware, optimize startup, defragment (HD
+ Lab: USB Device Not Recognized
+
+Scenario: A USB flash drive isn’t detected by the system.
+
+Steps:
+
+    Use diskpart and list disk to see if it’s recognized.
+
+    Update USB drivers via Device Manager.
+
+    Try another port or boot into Safe Mode for driver isolation.
+
+🌐 Lab: DNS Issues on a Workstation
+
+Scenario: Websites won’t load, but ping works.
+
+Diagnosis:
+
+    Check DNS resolution:
+nslookup www.google.com
+Flush DNS:
+ipconfig /flushdns
+
+💽 Lab: Full Hard Drive Warning
+
+Scenario: User gets "disk full" message, can’t install apps.
+
+Steps:
+
+    Run:
+
+cleanmgr
+
+    Identify large folders:
+
+Get-PSDrive
+
+    Use Disk Cleanup or Storage Sense.
+
+📢 Public Challenge
+
+Have you faced these problems on your job or PC?
+
+    Try these steps and share screenshots or your outcome.
+
+    What tool or fix saved the day?
 
 
