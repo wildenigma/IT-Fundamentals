@@ -1,14 +1,53 @@
-# 🧪 A+ Certification Labs
+# 🧪 A+ Labs – Part 2: Real-World Troubleshooting Scenarios
 
-Hands-on practice aligned with CompTIA A+ core exam topics. These help you simulate real help desk and technical support scenarios.
+This lab section covers practical, scenario-based issues and step-by-step resolutions. Perfect for help desk or field tech readiness.
 
 ---
 
-## 💡 Lab: Check System Info in Windows
+## 🔧 Scenario 1: PC Won’t Boot
 
-**Objective**: View computer specs and OS version.
+**Symptoms**:  
+- No display  
+- Fans spin, but no beep  
+- Power light is on  
 
-**Commands**:
-```bash
-systeminfo
+**Checklist & Fix**:  
+- ✅ Check power supply and surge protector  
+- ✅ Reseat RAM and GPU  
+- ✅ Listen for POST beeps  
+- ✅ Swap monitor or test with onboard video  
+- 🛠️ **Fix**: Reseat components → Clear CMOS → Replace PSU if dead
+
+---
+
+## 🧠 Scenario 2: “No Internet Access” but Connected to Wi-Fi
+
+**Symptoms**:  
+- Connected to Wi-Fi but “No Internet” message  
+- Can’t load any websites  
+
+**Checklist & Fix**:  
+- ✅ Run `ipconfig /all` (Windows) or `ifconfig` (Linux/Mac)  
+- ✅ Ping router: `ping 192.168.1.1`  
+- ✅ Check DNS: Try `nslookup google.com`  
+- 🛠️ **Fix**:  
+  - Release/renew IP: `ipconfig /release` → `ipconfig /renew`  
+  - Set manual DNS to `8.8.8.8` (Google DNS)  
+  - Restart router if needed  
+
+---
+
+## 💽 Scenario 3: Slow Performance
+
+**Symptoms**:  
+- Takes forever to boot or open apps  
+- High CPU usage  
+
+**Checklist & Fix**:  
+- ✅ Task Manager: Look for high CPU/disk usage  
+- ✅ Disable startup apps (`msconfig` or Task Manager > Startup)  
+- ✅ Run antivirus scan  
+- ✅ Check disk health: `chkdsk`  
+- 🛠️ **Fix**: Disable bloatware, optimize startup, defragment (HD
+
 
