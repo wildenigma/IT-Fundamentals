@@ -24,7 +24,19 @@ A+ is a CompTIA certification that teaches you the basics of hardware, software,
 ---
 
 ## 📂 Quick Navigation
+# 🧪 A+ Labs Index
 
-- [Common Issues](common-issues.md)
-- [Troubleshooting Scenarios](scenarios.md)
-- [Community Q&A](qna.md)
+Welcome to the A+ Labs section. Explore hands-on examples, real-world scenarios, and troubleshooting knowledge.
+
+---
+
+## 📄 Contents
+
+- [🔍 Definitions](definitions.md)
+- [⚠️ Common Issues](common-issues.md)
+- [🛠️ Troubleshooting Scenarios](scenarios.md)
+- [💬 Q&A + Public Feedback](qna.md)
+
+---
+
+All content is beginner-friendly, practical, and broken down with real support examples.
