@@ -1,0 +1,13 @@
+# 🧪 A+ Certification Labs
+
+Hands-on practice aligned with CompTIA A+ core exam topics. These help you simulate real help desk and technical support scenarios.
+
+---
+
+## 💡 Lab: Check System Info in Windows
+
+**Objective**: View computer specs and OS version.
+
+**Commands**:
+```bash
+systeminfo
