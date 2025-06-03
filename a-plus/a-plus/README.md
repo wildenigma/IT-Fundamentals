@@ -1,17 +1,11 @@
-# 🧪 A+ Labs Index
+# 🧪 A+ Labs (Part 1 & 2)
 
-Welcome to the A+ Labs section. Explore hands-on examples, real-world scenarios, and troubleshooting knowledge.
+Explore definitions, common errors, troubleshooting examples, and community questions related to A+ Certification.
 
----
-
-## 📄 Contents
-
+Jump to:
+- [index.md](index.md) – Overview
+- [common-issues.md](common-issues.md) – Frequent errors
+- [scenarios.md](scenarios.md) – Real-world fixes
+- [qna.md](qna.md) – Ask or answer questions
 - [🔍 Definitions](definitions.md)
-- [⚠️ Common Issues](common-issues.md)
-- [🛠️ Troubleshooting Scenarios](scenarios.md)
-- [💬 Q&A + Public Feedback](qna.md)
-
----
-
-All content is beginner-friendly, practical, and broken down with real support examples.
 
