@@ -95,5 +95,40 @@ Have you faced these problems on your job or PC?
     Try these steps and share screenshots or your outcome.
 
     What tool or fix saved the day?
+📌 Optional Additions Y:
+1. Part 3: Diagnostic Tools in Action
 
+    Focused labs using:
+
+        BIOS/UEFI
+
+        chkdsk, sfc /scannow, MemTest86
+
+        Device Manager deep dive
+
+2. Part 4: Preventive Maintenance
+
+    Dust cleaning
+
+    Power supply checks
+
+    OS optimization tools
+
+3. Part 5: Hands-On Printable Checklist
+
+    Markdown-formatted checklists for:
+
+        “First Visit IT Checks”
+
+        “Post-Deployment Review”
+
+        “User Setup Flow”
+
+4. 🖼️ Visuals Folder (Optional):
+
+If you’re generating diagrams using Adobe tools, you can:
+
+    Upload .png or .jpg files into a subfolder:
+    fundamentals/A+ labs/images/
+![BIOS Menu Example](images/bios-example.png)
 
