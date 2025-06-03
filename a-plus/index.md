@@ -21,3 +21,10 @@ A+ is a CompTIA certification that teaches you the basics of hardware, software,
 - Shows employers you understand computers and can support end users.
 
 👉 Explore the other pages in this folder for issues, fixes, and practice scenarios.
+---
+
+## 📂 Quick Navigation
+
+- [Common Issues](common-issues.md)
+- [Troubleshooting Scenarios](scenarios.md)
+- [Community Q&A](qna.md)
