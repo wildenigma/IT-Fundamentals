@@ -73,4 +73,121 @@ Use of simple, common, or reused passwords makes it easy for attackers to gain u
 - Data theft  
 - Unauthorized access to systems
 
-**Mitigation:**
+**Mitigation:**  
+- Enforce strong password policies  
+- Implement multi-factor authentication (MFA)  
+- Monitor and block repeated login failures  
+
+---
+
+## 5. Misconfigured Security Settings
+
+**Description:**  
+Incorrectly configured security controls (firewalls, permissions, cloud buckets, etc.) can expose sensitive data or systems unintentionally.
+
+**Examples:**  
+- Publicly accessible AWS S3 buckets  
+- Open ports on firewalls  
+- Excessive user privileges
+
+**Impact:**  
+- Data exposure  
+- Unauthorized access  
+- System exploitation
+
+**Mitigation:**  
+- Regular configuration audits  
+- Principle of least privilege (PoLP) for access control  
+- Use automated security scanning tools  
+
+---
+
+## 6. Insecure Deserialization
+
+**Description:**  
+When untrusted data is deserialized by an application, it can lead to remote code execution or privilege escalation.
+
+**Impact:**  
+- Remote code execution  
+- Denial of service  
+- Data manipulation
+
+**Mitigation:**  
+- Avoid deserializing untrusted data  
+- Use serialization formats that do not allow code execution  
+- Implement strict input validation  
+
+---
+
+## 7. Broken Authentication and Session Management
+
+**Description:**  
+Flaws in authentication or session management allow attackers to impersonate users or hijack sessions.
+
+**Impact:**  
+- Account takeover  
+- Data theft  
+- Privilege escalation
+
+**Mitigation:**  
+- Use secure, tested authentication libraries  
+- Implement session timeouts and token invalidation  
+- Protect against session fixation and replay attacks  
+
+---
+
+## 8. Security Misconfiguration
+
+**Description:**  
+Security misconfiguration can happen at any level of an application stack (servers, databases, frameworks, etc.)
+
+**Impact:**  
+- Information disclosure  
+- Unauthorized access  
+- Exploitation of vulnerable services
+
+**Mitigation:**  
+- Harden all servers and services  
+- Remove default credentials and accounts  
+- Keep software up-to-date with patches
+
+---
+
+## 9. Sensitive Data Exposure
+
+**Description:**  
+Exposure of sensitive information (PII, credit card data, etc.) due to inadequate encryption, logging, or storage.
+
+**Impact:**  
+- Data breach  
+- Regulatory fines  
+- Loss of user trust
+
+**Mitigation:**  
+- Encrypt sensitive data at rest and in transit  
+- Mask data in logs  
+- Use secure key management  
+
+---
+
+## 10. Insufficient Logging and Monitoring
+
+**Description:**  
+Lack of adequate logging and monitoring allows attackers to persist undetected in systems.
+
+**Impact:**  
+- Prolonged attacks  
+- Delayed incident response  
+- Increased damage
+
+**Mitigation:**  
+- Implement centralized logging and alerting  
+- Regularly review logs and audit trails  
+- Use automated threat detection tools  
+
+---
+
+# Summary
+
+Understanding these vulnerabilities and how attackers exploit them is critical to securing IT environments. Regular vulnerability assessments, patching, and employee training are key components of an effective security program.
+
