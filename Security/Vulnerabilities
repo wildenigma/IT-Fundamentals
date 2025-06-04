@@ -1,0 +1,76 @@
+# Common Security Vulnerabilities
+
+This document describes some of the most critical security vulnerabilities encountered in IT systems, their impact, and basic mitigation strategies.
+
+---
+
+## 1. SQL Injection (SQLi)
+
+**Description:**  
+SQL Injection occurs when attackers insert malicious SQL queries into input fields, which are then executed by the database. This can lead to unauthorized data access, data modification, or deletion.
+
+**Example:**  
+An attacker enters `' OR '1'='1` into a login form input, bypassing authentication.
+
+**Impact:**  
+- Data breach or loss  
+- Full database compromise  
+- System takeover
+
+**Mitigation:**  
+- Use parameterized queries or prepared statements  
+- Validate and sanitize user inputs  
+- Employ web application firewalls (WAF)  
+
+---
+
+## 2. Cross-Site Scripting (XSS)
+
+**Description:**  
+XSS vulnerabilities allow attackers to inject malicious client-side scripts into web pages viewed by other users. These scripts can steal cookies, session tokens, or perform actions on behalf of the victim.
+
+**Types:**  
+- Stored XSS (persisted on server)  
+- Reflected XSS (in URL or input)  
+- DOM-based XSS (client-side only)
+
+**Impact:**  
+- User account compromise  
+- Credential theft  
+- Session hijacking
+
+**Mitigation:**  
+- Encode and sanitize all user inputs and outputs  
+- Use Content Security Policy (CSP) headers  
+- Implement secure frameworks that auto-escape outputs  
+
+---
+
+## 3. Buffer Overflow
+
+**Description:**  
+Occurs when a program writes more data to a buffer than it can hold, overwriting adjacent memory. This can lead to crashes or arbitrary code execution.
+
+**Impact:**  
+- Application crashes (Denial of Service)  
+- Remote code execution  
+- Privilege escalation
+
+**Mitigation:**  
+- Use safe programming languages or libraries that handle memory securely  
+- Perform boundary checks on buffers  
+- Apply security patches regularly  
+
+---
+
+## 4. Weak Passwords and Credential Stuffing
+
+**Description:**  
+Use of simple, common, or reused passwords makes it easy for attackers to gain unauthorized access using brute-force or stolen credential lists.
+
+**Impact:**  
+- Account compromise  
+- Data theft  
+- Unauthorized access to systems
+
+**Mitigation:**
