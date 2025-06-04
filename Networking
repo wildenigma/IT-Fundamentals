@@ -1,1 +1,107 @@
+🌐 Networking Fundamentals
 
+This section breaks down essential networking concepts in simple terms, practical troubleshooting, and real-world resolutions.
+
+📘 Definitions
+
+IP Address: A unique number assigned to every device on a network.
+
+DNS (Domain Name System): Translates domain names (like google.com) to IP addresses.
+
+DHCP (Dynamic Host Configuration Protocol): Automatically assigns IP addresses to devices.
+
+Router: Directs data packets between networks.
+
+Switch: Connects devices within a local network (LAN).
+
+Firewall: Protects networks by blocking unauthorized access.
+
+MAC Address: Physical address of a network interface card (NIC).
+
+💡 Explanation (Layman's Terms)
+
+Imagine your network is a mail system:
+
+IP = mailing address
+
+DNS = address book
+
+Router = mail carrier between cities
+
+Switch = mail sorter within the post office
+
+MAC = apartment number
+
+Firewall = security guard
+
+🛠️ Common Networking Issues & Fixes
+
+Problem
+
+Possible Causes
+
+Resolution Steps
+
+No Internet Access
+
+Bad cable, router offline, IP conflict
+
+Restart router, check cables, renew IP
+
+DNS Server Not Responding
+
+Misconfigured DNS settings
+
+Use Google DNS: 8.8.8.8 / 8.8.4.4
+
+IP Conflict
+
+Two devices share same IP
+
+Release/Renew IP, set static IP
+
+Intermittent Connection
+
+Weak signal, interference, outdated driver
+
+Update Wi-Fi driver, move closer to router
+
+Slow Speed
+
+Bandwidth overload, router limit
+
+Reboot router, limit connected devices
+
+🧪 Practice Q&A
+
+Q1: What command checks your IP settings in Windows?
+
+ipconfig
+
+Q2: What command tests the connection to another host?
+
+ping [destination]
+
+Q3: What’s a quick fix for "DNS not resolving"?
+
+Change to Google DNS in adapter settings.
+
+Q4: What’s the difference between switch and router?
+
+Switch connects devices locally, router connects networks.
+
+🖼️ Diagram Overview
+
+Visual of LAN with router, switch, 3 devices
+
+Highlight DNS flow, DHCP assignment, ping test path
+
+(To be added as networking-diagram.png in assets)
+
+💬 Contribute & Learn
+
+Post your trickiest networking issue and how you fixed it.
+
+What tools do you use: Wireshark, tracert, etc.?
+
+Help others by sharing your methods below!
