@@ -1,3 +1,13 @@
+---
+title: A+ Overview
+layout: default
+---
+
+[🏠 Home](../README.md) | 
+[💻 A+](../a-plus/index.md) | 
+[🌐 Networking](../networking/index.md) | 
+[🔐 Security](../security/index.md)
+
 # 💻 A+ Certification Overview
 
 This section covers the A+ Certification in easy-to-understand language for beginners and future techs.
