@@ -32,11 +32,9 @@ Welcome to the A+ Labs section. Explore hands-on examples, real-world scenarios,
 
 ## 📄 Contents
 
-- [🔍 Definitions](definitions.md)
-- [⚠️ Common Issues](common-issues.md)
-- [🛠️ Troubleshooting Scenarios](scenarios.md)
-- [💬 Q&A + Public Feedback](qna.md)
+[a-plus Definitions](a-plus/definitions.m
 
 ---
+d)
 
 All content is beginner-friendly, practical, and broken down with real support examples.
