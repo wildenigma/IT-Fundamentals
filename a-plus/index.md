@@ -32,7 +32,8 @@ Welcome to the A+ Labs section. Explore hands-on examples, real-world scenarios,
 
 ## 📄 Contents
 
-[a-plus Definitions](a-plus/definitions.md)
+[🔍 Definitions](definitions.md)
+
 
 
 ---
