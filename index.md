@@ -12,3 +12,4 @@ Here we'll explore real-world scenarios, solutions, and hands-on labs below:
 - [🧪 BSOD Errors in Windows](labs/bsod.md)
 - [📡 Configuring DHCP](labs/dhcp.md)
 - [💻 Windows Image Deployment](labs/image-deployment.md)
+- [CIA Triad Overview](./cia-triad.md)
