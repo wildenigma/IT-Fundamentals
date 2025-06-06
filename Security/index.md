@@ -16,6 +16,7 @@ This section covers Security+ topics, encryption protocols, threats and controls
 - [🚨 Threats & Resolutions](threats.md)
 - [💬 Community Q&A](qna.md)
 - [CIA Triad Overview](./cia-triad.md)
+[🔐 View Security Fundamentals with Diagrams](./fundamentals.md)
 
 ---
 
